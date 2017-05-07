@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../lifgoo/.idea/lifgoo.iml" filepath="$PROJECT_DIR$/../lifgoo/.idea/lifgoo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lookshop.iml" filepath="$PROJECT_DIR$/.idea/lookshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tinhhoadauwp/.idea/tinhhoadauwp.iml" filepath="$PROJECT_DIR$/../tinhhoadauwp/.idea/tinhhoadauwp.iml" />
+    </modules>
+  </component>
+</project>
