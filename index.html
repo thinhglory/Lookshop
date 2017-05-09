@@ -52,22 +52,44 @@
                     <div class="container-fluid row">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
                             <a class="navbar-brand" href="#">
                                 <img src="imgaes/logo.png" alt="logo">
                             </a>
-                        </div>
+                            <div class="your-cart your-cart-mobile" >
+                                <div class="your-cart-top">
+                                    Your cart <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="your-cart-bottom">
+                                    <img src="imgaes/icon-cart.png" alt="image">
+                                    <div class="text-float-right"><span>0</span> ITEMS | $ <span>0</span></div>
+                                </div>
+                            </div>
+                            <div class="menu-mobile your-cart-mobile">
+                                <p>MENU</p>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
 
+                        </div>
+                        <div class="your-cart your-cart-desktop">
+                            <div class="your-cart-top">
+                                Your cart <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            </div>
+                            <div class="your-cart-bottom">
+                                <img src="imgaes/icon-cart.png" alt="image">
+                                <div class="text-float-right"><span>0</span> ITEMS | $ <span>0</span></div>
+                            </div>
+                        </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                           <!-- <ul class="nav navbar-nav">
+                            <!-- <ul class="nav navbar-nav">
 
-                            </ul>-->
+                             </ul>-->
+
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">new <span class="caret"></span></a>
@@ -105,26 +127,17 @@
                                     </ul>
                                 </li>
 
-                                <form class="form-inline">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" id="your-cart" placeholder="Your mail adress">
-                                            <div class="input-group-addon"><i class="fa fa-caret-down" aria-hidden="true"></i></div>
-                                        </div>
-                                    </div>
-                                </form>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                    </ul>
-                                </li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
+                        <div class="show-mobile-iphone">
+                            <div class="form-email">
+                                <input type="text" id="email" name="email" placeholder="Your email address"/>
+                                <div class="submit-email">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
                     </div><!-- /.container-fluid -->
                 </nav>
             </div>
@@ -192,11 +205,11 @@
         <div class="bg-banner">
             <div class="container">
                 <div>
-                    <div class="col-md-6 banner-item">
+                    <div class="col-md-6 col-xs-6 banner-item banner-1">
                         <img src="imgaes/banner1.jpg" alt="">
                     </div>
-                    <div class="col-md-6 banner-item">
-                        <div class="">
+                    <div class="col-md-6 col-xs-6 banner-item">
+                        <div class="banner-2">
                             <img src="imgaes/banner2.jpg" alt="">
                         </div>
                         <div class="banner3-4">
@@ -205,6 +218,11 @@
                             </div>
                             <div class="banner4">
                                 <img src="imgaes/banner4.jpg" alt="">
+
+                                <div class="banner-btn-shopnow text-tra">
+                                    <a href="javascript:void(0)">show now</a>
+                                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -330,7 +348,7 @@
             </div>
 
             <div class="row content-off">
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-4">
                     <div class="item-product">
                         <img src="imgaes/Layer-8.jpg">
                         <div class="info-product-slider">
@@ -346,7 +364,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-4">
                     <div class="item-product">
                         <img src="imgaes/Layer-8.jpg">
                         <div class="info-product-slider">
@@ -362,7 +380,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-4">
                     <div class="item-product">
                         <img src="imgaes/Layer-8.jpg">
                         <div class="info-product-slider">
@@ -378,7 +396,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 item-off-responsive">
                     <div class="item-product">
                         <img src="imgaes/Layer-8.jpg">
                         <div class="info-product-slider">
@@ -404,14 +422,30 @@
         </div>
         <div class="container">
             <div class="content-favourite-brands">
-                <img src="imgaes/Layer-21.png" alt="">
-                <img src="imgaes/Layer-22.png" alt="">
-                <img src="imgaes/Layer-23.png" alt="">
-                <img src="imgaes/Layer-24.png" alt="">
-                <img src="imgaes/Layer-25.png" alt="">
-                <img src="imgaes/Layer-26.png" alt="">
-                <img src="imgaes/Layer-27.png" alt="">
-                <img src="imgaes/Layer-28.png" alt="">
+                <div class="col-1 col-item">
+                    <img src="imgaes/Layer-21.png" alt="">
+                </div>
+                <div class="col-2 col-item">
+                    <img src="imgaes/Layer-22.png" alt="">
+                </div>
+                <div class="col-3 col-item">
+                    <img src="imgaes/Layer-23.png" alt="">
+                </div>
+                <div class="col-4 col-item">
+                    <img src="imgaes/Layer-24.png" alt="">
+                </div>
+                <div class="col-5 col-item">
+                    <img src="imgaes/Layer-25.png" alt="">
+                </div>
+                <div class="col-6 col-item">
+                    <img src="imgaes/Layer-26.png" alt="">
+                </div>
+                <div class="col-7 col-item">
+                    <img src="imgaes/Layer-27.png" alt="">
+                </div>
+                <div class="col-8 col-item">
+                    <img src="imgaes/Layer-28.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -427,85 +461,154 @@
         </div>
     </section>
 
+    <section id="we-accept">
+        <div class="bg-we-accept">
+            <div class="title-we-accept">We accept</div>
+            <div class="content-we-accept">
+                <img src="imgaes/Layer-29.png" alt="">
+            </div>
+        </div>
+    </section>
+
     <section>
-        <div class="container">
-            <div class="col-md-2">
-                <div class="">
-                    Customer Service
-                </div>
-                <div class="">
-                    <ul class="font-2">
-                        <li><a href="javascript:void(0)">Contact</a></li>
-                        <li><a href="javascript:void(0)">FAQ</a></li>
-                        <li><a href="javascript:void(0)">Terms of payment</a></li>
-                        <li><a href="javascript:void(0)">Terms of sale</a></li>
-                        <li><a href="javascript:void(0)">Delivery terms and conditions</a></li>
-                        <li><a href="javascript:void(0)">Returns and Refunds</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="bg-service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-3 service-item">
+                        <div class="titile-service">
+                            Customer Service
+                        </div>
+                        <div class="content-service">
+                            <ul class="font-2">
+                                <li><a href="javascript:void(0)">Contact</a></li>
+                                <li><a href="javascript:void(0)">FAQ</a></li>
+                                <li><a href="javascript:void(0)">Terms of payment</a></li>
+                                <li><a href="javascript:void(0)">Terms of sale</a></li>
+                                <li><a href="javascript:void(0)">Delivery terms and conditions</a></li>
+                                <li><a href="javascript:void(0)">Returns and Refunds</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-            <div class="col-md-2">
-                <div class="">
-                    Information
-                </div>
-                <div class="">
-                    <ul class="font-2">
-                        <li><a href="javascript:void(0)">Affiliate</a></li>
-                        <li><a href="javascript:void(0)">Cookies</a></li>
-                        <li><a href="javascript:void(0)">How to Shop</a></li>
-                        <li><a href="javascript:void(0)">About Nelly</a></li>
-                        <li><a href="javascript:void(0)">Investor relations</a></li>
-                    </ul>
-                </div>
-            </div>
+                    <div class="col-md-2 col-xs-3 service-item">
+                        <div class="titile-service">
+                            Information
+                        </div>
+                        <div class="content-service">
+                            <ul class="font-2">
+                                <li><a href="javascript:void(0)">Affiliate</a></li>
+                                <li><a href="javascript:void(0)">Cookies</a></li>
+                                <li><a href="javascript:void(0)">How to Shop</a></li>
+                                <li><a href="javascript:void(0)">About Nelly</a></li>
+                                <li><a href="javascript:void(0)">Investor relations</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-            <div class="col-md-3">
-                <div class="">
-                    Campaigns
-                </div>
-                <div class="">
-                    <ul class="font-2">
-                        <li><a href="javascript:void(0)">Evening dresses</a></li>
-                        <li><a href="javascript:void(0)">Makeup</a></li>
-                        <li><a href="javascript:void(0)">Fashion forward training clothes</a></li>
-                        <li><a href="javascript:void(0)">Special Occasion Dresses</a></li>
-                    </ul>
-                </div>
-            </div>
+                    <div class="col-md-3 col-xs-3 service-item">
+                        <div class="desktop-campaigns">
+                            <div class="titile-service">
+                                Campaigns
+                            </div>
+                            <div class="content-service">
+                                <ul class="font-2">
+                                    <li><a href="javascript:void(0)">Evening dresses</a></li>
+                                    <li><a href="javascript:void(0)">Makeup</a></li>
+                                    <li><a href="javascript:void(0)">Fashion forward training clothes</a></li>
+                                    <li><a href="javascript:void(0)">Special Occasion Dresses</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="social-responsive">
+                            <div class="titile-service">
+                                Social
+                            </div>
+                            <div class="content-service content-social-service">
+                                <ul class="font-2">
+                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="col-md-1">
-                <div class="">
-                    Stores
-                </div>
-                <div class="">
-                    <ul class="font-2">
-                        <li><a href="javascript:void(0)">Paris</a></li>
-                        <li><a href="javascript:void(0)">New York</a></li>
-                        <li><a href="javascript:void(0)">London</a></li>
-                        <li><a href="javascript:void(0)">Madrid</a></li>
-                        <li><a href="javascript:void(0)">Tokio</a></li>
-                    </ul>
-                </div>
-            </div>
+                    <div class="col-md-1 col-xs-3 service-item">
+                        <div class="stores-desktop">
+                            <div class="titile-service">
+                                Stores
+                            </div>
+                            <div class="content-service">
+                                <ul class="font-2">
+                                    <li><a href="javascript:void(0)">Paris</a></li>
+                                    <li><a href="javascript:void(0)">New York</a></li>
+                                    <li><a href="javascript:void(0)">London</a></li>
+                                    <li><a href="javascript:void(0)">Madrid</a></li>
+                                    <li><a href="javascript:void(0)">Tokio</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="images-service images-service-responsive">
+                            <img src="imgaes/secured.png" alt="">
+                        </div>
+                    </div>
 
-            <div class="col-md-2">
-                <div class="">
-                    Stores
+                    <div class="col-md-2 col-xs-3 service-item">
+                        <div class="social-responsive">
+                            <div class="titile-service">
+                                Campaigns
+                            </div>
+                            <div class="content-service">
+                                <ul class="font-2">
+                                    <li><a href="javascript:void(0)">Evening dresses</a></li>
+                                    <li><a href="javascript:void(0)">Makeup</a></li>
+                                    <li><a href="javascript:void(0)">Fashion forward training clothes</a></li>
+                                    <li><a href="javascript:void(0)">Special Occasion Dresses</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="desktop-campaigns">
+                            <div class="titile-service">
+                                Social
+                            </div>
+                            <div class="content-service content-social-service">
+                                <ul class="font-2">
+                                    <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-xs-3">
+                        <div class="images-service images-service-responsive">
+                            <div class="titile-service">
+                                Stores
+                            </div>
+                            <div class="content-service">
+                                <ul class="font-2">
+                                    <li><a href="javascript:void(0)">Paris</a></li>
+                                    <li><a href="javascript:void(0)">New York</a></li>
+                                    <li><a href="javascript:void(0)">London</a></li>
+                                    <li><a href="javascript:void(0)">Madrid</a></li>
+                                    <li><a href="javascript:void(0)">Tokio</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="stores-desktop">
+                            <div class="images-service service-item">
+                                <img src="imgaes/secured.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="">
-                    <ul class="font-2">
-                        <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <img src="imgaes/secured.png" alt="">
             </div>
         </div>
     </section>
@@ -515,15 +618,15 @@
             <div class="container">
                 <div class="footer-left">
                     <ul class="font-2">
-                        <li><a href="javascript:void(0)">Privacy & Cookies |</a></li>
-                        <li><a href="javascript:void(0)">Terms & Conditions |</a></li>
-                        <li><a href="javascript:void(0)">Accessibility |</a></li>
-                        <li><a href="javascript:void(0)">Store Directory |</a></li>
+                        <li><a href="javascript:void(0)">Privacy & Cookies <span>|</span></a></li>
+                        <li><a href="javascript:void(0)">Terms & Conditions <span>|</span></a></li>
+                        <li><a href="javascript:void(0)">Accessibility <span>|</span></a></li>
+                        <li><a href="javascript:void(0)">Store Directory <span>|</span></a></li>
                         <li><a href="javascript:void(0)">About Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-right">
-                    © LookShop.com
+                    © LookShop.com<br>
                     All Rights Reserved
                 </div>
             </div>
